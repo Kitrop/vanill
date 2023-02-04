@@ -1,0 +1,68 @@
+
+/* HEADER */
+
+.header {
+    background-color: black;
+    height: 7vh;
+    font-size: 1.3rem;
+}
+
+.headerLinks {
+    padding-top: 1rem;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1.3vw;
+    margin-right: 1.3vw;
+}
+
+.headerLink {
+    color: white;
+}
+
+.line {
+    margin: 55px auto;
+    height: 10px;
+    border-radius: 20px;
+    width: 85vw;
+    background-color: #ff0760
+}
+
+
+/* COVER */
+
+.art {
+    background-image: url("./img/bg1.png");
+    background-repeat: no-repeat;
+}
+
+/* ABOUT US */
+
+.aboutUsSection {
+    margin-top: 2vh;
+}
+
+.aboutUsMain {
+    margin-right: 25vw;
+    margin-left: 25vw;
+    font-size: 1.3em;
+}
+
+
+/* TOURS */
+.tour {
+
+    padding: 0 20px 0 20px;
+    margin: 3.5vh 25vw 0 25vw;
+    border: 3px solid black;
+    width: 50vw;
+    height: 75px;
+}
+
+.tourInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+}
