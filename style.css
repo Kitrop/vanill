@@ -30,6 +30,13 @@
     background-color: #ff0760
 }
 
+@media screen and (max-width: 1000px) {
+    .header {
+        height: 5vh;
+        font-size: 2.4rem;
+    }
+}
+
 
 /* COVER */
 
@@ -50,6 +57,20 @@
     font-size: 1.3em;
 }
 
+@media screen and (max-width: 1000px) {
+    .aboutUsSection h1{
+        font-size: 2.9rem;
+    }
+
+    .aboutUsMain {
+        margin: 0 18vw;
+    }
+
+    .aboutUsMain p{
+        font-size: 2.5rem;
+    }
+}
+
 
 /* TOURS */
 .tour {
@@ -65,4 +86,20 @@
     display: flex;
     justify-content: space-between;
     margin-top: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+    .toursSection h1 {
+        font-size: 2.9rem;
+    }
+
+    .tour {
+        margin: 3.5vh 15vw 0 15vw;
+        width: 70vw;
+    }
+
+    .tourInfo {
+        margin-top: 15px;
+        font-size: 2.2rem;
+    }
 }
