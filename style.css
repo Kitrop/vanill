@@ -123,3 +123,20 @@ html, body {
     height: 500px;
     max-width: 100%;
 }
+
+.merch_main__p {
+    font-size: 1.4rem;
+}
+
+.merch_main__span {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .merch_main__p {
+        font-size: 2.2rem;
+    }
+    .merch_main__span {
+        font-size: 2.3rem;
+    }
+}
