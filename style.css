@@ -11,7 +11,7 @@ html, body {
 .header {
     background-color: black;
     height: 7vh;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-family: 'Roboto Flex', sans-serif;
 }
 
@@ -57,6 +57,7 @@ html, body {
 
 .aboutUsSection {
     margin-top: 2vh;
+    font-size: 1.3rem;
 }
 
 .aboutUsMain {
@@ -94,6 +95,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     margin-top: 23px;
+    font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1000px) {
